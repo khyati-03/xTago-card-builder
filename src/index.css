@@ -78,6 +78,13 @@ body,
   border-radius: 10px;
 }
 
+.gjs-sm-sector-label,
+.gjs-layer-name,
+.gjs-block-category .gjs-title {
+  font-weight: 500 !important;
+  font-size: 14px;
+}
+
 #gjs .gjs-pn-buttons,
 #gjs .gjs-pn-views {
   gap: 6px;
