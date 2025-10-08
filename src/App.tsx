@@ -1,4 +1,6 @@
 import Editor from "./components/Editor";
+// import logo
+import brandLogo from "../src/assets/logo.svg";
 
 export default function App() {
   return (
@@ -6,7 +8,7 @@ export default function App() {
       <header className="border-b border-b-slate-200 bg-white/70 backdrop-blur supports-[backdrop-filter]:bg-white/40">
         <div className="mx-auto max-w-7xl px-4 py-3 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src="../src/assets/logo.svg" alt="xTago" className="h-9 w-9 rounded-xl" />
+            <img src={brandLogo} alt="xTago" className="h-9 w-9 rounded-xl" />
             <div>
               <h1 className="text-xl font-semibold text-slate-800">
                 xTago - Custom Card Builder
